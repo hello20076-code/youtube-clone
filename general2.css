@@ -1,0 +1,196 @@
+.body{
+  height: 2000px;
+  padding-top: 55px;
+  padding-left: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.video-page{
+  display: grid;
+  grid-template-columns: 1296px auto;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.video-grid{
+  width: 1296px;
+  
+}
+
+  .actual-video{
+    background-color: lightblue;
+    height: 729px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .actual{
+    border-radius: 10px;
+  }
+
+  .video-info{
+    padding-bottom: 6px;
+    border-left-color:white ;
+    border-right-color:white ;
+    border-top-color:white ;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: rgb(216, 216, 216);
+    margin-bottom: 10px;
+  }
+
+    .video-title{
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .channel-review{
+      display: flex;
+      justify-content: space-between;
+    }
+
+      .channel{
+        display: flex;
+      }
+
+        .channel-profile{
+          height: 40px;
+          width: 40px;
+          border-radius: 40px;
+          margin-right: 10px;
+          margin-left: 2px;
+        }
+
+          .name-check{
+            display: flex;
+            align-items: center;
+          }
+
+            .channel-name{
+              color: rgb(0, 0, 0);
+              text-decoration: none;
+              font-weight: 549;
+              font-size: 16px;
+              height: 22px;
+            }
+
+            .channel-link{
+              text-decoration: none;
+            }
+
+            .checkmark{
+              height: 14px;
+              width: 14px;
+              opacity: 64%;
+            }
+
+          .subscribers{
+            color: rgb(96 96 96);
+            font-size: 12px;
+            font-weight: 400;
+          }
+
+          .subscribe{
+            background-color: black;
+            color: white;
+            border:none;
+            border-radius: 18px;
+            font-size: 14px;
+            height:36px;
+            width: 94.5312px;
+            margin-left: 25px;
+            cursor: pointer;
+          }
+          
+          .subscribe:hover{
+            background-color: rgb(54, 54, 54);
+          }
+
+          .subscribe:active{
+            background-color: rgb(75, 75, 75);
+          }
+
+
+
+
+
+
+      .review{
+        display: flex;
+        flex-direction: row;
+        height: 36px;
+      }
+
+        .like{
+          border-top-left-radius: 18px;
+          border-top-right-radius: 0;
+          border-bottom-left-radius: 18px;
+          border-bottom-right-radius: 0;
+        }
+
+          .like-png , .dislike-png , .share-png {
+            height: 24px;
+            width: 24px;
+            padding-right: 5px;
+          }
+
+          .like , .dislike , .share , .three-dots{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 36px;
+            width: 80px;
+            border: none;
+            font-size: 14px;
+            font-weight: 530;
+            cursor: pointer;
+          }
+
+          .like:hover , .dislike:hover , .share:hover , .three-dots:hover{
+            background-color: rgb(226, 225, 225);
+          }
+
+          .like:active , .dislike:active , .share:active , .three-dots:active{
+            background-color: rgb(197, 197, 197);
+          }
+
+        .dislike{
+          border-top-left-radius: 0;
+          border-top-right-radius: 018px;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 018px;
+        }
+
+        .share{
+          border-radius: 18px;
+          width: 97px;
+          margin-left: 10px;
+        }
+
+        .three-dots{
+          width: 36px;
+          border-radius: 20px;
+          margin-left: 10px;
+        }
+
+          .three-dots-png{
+            height: 15px;
+          }
+
+
+
+
+
+
+.description{
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 104px;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}

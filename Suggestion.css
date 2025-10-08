@@ -1,0 +1,152 @@
+.suggesion{
+  margin-left: 24px;
+  width: 405px;
+}
+
+.tags{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+    .tag{
+      border: none;
+      height: 32px;
+      padding: 0px 12px;
+      border-radius: 8px;
+      margin-right: 7px;
+      cursor: pointer;
+    }
+
+    .tag:hover{
+      background-color: rgb(226, 225, 225);
+    }
+
+.shorts-section{
+  height: 354px;
+  display: flex;
+  border-left-color:white ;
+  border-right-color:white ;
+  border-top-color:white ;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-color: rgb(216, 216, 216);
+}
+
+
+
+
+
+.short-logo{
+  display: flex;
+  align-items: center;
+  padding: 7px 2px;
+}
+
+  .shorts-png{
+    height: 24px;
+  }
+
+  .shorts{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+.shorts1{
+  height: 318px;
+  width: 132px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+  .shorts-thumbnail{
+    height: 237px;
+    width: 132px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+  }
+
+  .title-dots{
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+    .shorts-title{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      color: rgb(15 15 15);
+    }
+
+    .button-3{
+      height: 36px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      background-color: white;
+    }
+
+        .button-3:hover{
+          background-color: rgb(221, 219, 219);
+        }
+
+      .three-dots2{
+        height: 24px;
+      }
+
+  .shorts-views{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(96, 96, 96);
+  }
+
+
+
+.suggesion-video{
+  text-decoration: none;
+  display: flex;
+  margin-top: 8px;
+}
+
+.sug-thumbnail{
+  height: 94px;
+  width: 168px;
+  margin-right: 6px;
+  border-radius: 8px;
+}
+
+.sug-1{
+  display: flex;
+}
+
+.sug-title{
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sug-2{
+  display: flex;
+  align-items: center;
+}
+
+.sug-channel, .sug-3{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(96, 96, 96);
+}
+
+.sug-channel{
+  padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
